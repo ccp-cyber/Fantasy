@@ -14,7 +14,7 @@ public class Team
 
     public string? image { get; set; }
 
-    public Country? Contry { get; set; }
+    public Country? Country { get; set; }
 
     public int ContryId { get; set; }
 }
