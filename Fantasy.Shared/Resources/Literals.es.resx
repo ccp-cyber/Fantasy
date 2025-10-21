@@ -144,6 +144,15 @@
   <data name="Edit" xml:space="preserve">
     <value>Editar</value>
   </data>
+  <data name="ERR001" xml:space="preserve">
+    <value>Error no encontrado.</value>
+  </data>
+  <data name="ERR002" xml:space="preserve">
+    <value>No se puede borrar porque tiene registros relacionados.</value>
+  </data>
+  <data name="ERR003" xml:space="preserve">
+    <value>Ya existe el registro que estas intentando ingresar.</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
@@ -155,6 +164,9 @@
   </data>
   <data name="LeaveAndLoseChanges" xml:space="preserve">
     <value>¿Desea abandonar la pagina y perder los cambios?</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>El campo {0} no puede tener más de {1} caracteres.</value>
   </data>
   <data name="New" xml:space="preserve">
     <value>Nuevo</value>
@@ -171,6 +183,9 @@
   <data name="RecordSavedOk" xml:space="preserve">
     <value>Registro guardado con éxito.</value>
   </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>El campo {0} es obligatorio.</value>
+  </data>
   <data name="Return" xml:space="preserve">
     <value>Regresar</value>
   </data>
@@ -179,6 +194,9 @@
   </data>
   <data name="Subtitle" xml:space="preserve">
     <value>Aplicacion de pronosticos futboleros</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Equipo</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Polla</value>
