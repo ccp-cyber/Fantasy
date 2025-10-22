@@ -17,7 +17,7 @@ public class DataContext : DbContext
         base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Country>().HasIndex(x => x.Name).IsUnique();
         //indice compuesto por pais y nombre
-        modelBuilder.Entity<Team>().HasIndex(x => new { x.ContryId, x.Name }).IsUnique();
+        modelBuilder.Entity<Team>().HasIndex(x => new { x.CountryId, x.Name }).IsUnique();
         DisableCascadingDelete(modelBuilder);
     }
 

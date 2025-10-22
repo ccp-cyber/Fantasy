@@ -153,6 +153,12 @@
   <data name="ERR003" xml:space="preserve">
     <value>The record you are trying to create already exists.</value>
   </data>
+  <data name="ERR004" xml:space="preserve">
+    <value>The country Id is not valid.</value>
+  </data>
+  <data name="ERR005" xml:space="preserve">
+    <value>The team Id is not valid.</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
